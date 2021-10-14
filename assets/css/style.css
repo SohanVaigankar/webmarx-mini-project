@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    /* background-color: rgb(141, 36, 211); */
+    color: #2f2f2f;
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.darkside {
+    color: rgba(245, 245, 245, 0.281);
+    font-size: 2rem;
+
+}
+
+.container {
+    width: 90%;
+    margin: auto 0;
+}
+
+nav {
+    font-size: 1.7rem;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 3.3rem;
+    background-color: rgb(129, 31, 194);
+}
+
+.logo {
+    padding: 0.5rem;
+    margin-left: 2rem;
+    float: left
+}
+
+nav ul {
+    font-size: 1rem;
+    padding: 1rem;
+    float: right;
+}
+
+nav ul li {
+    margin-right: 3rem;
+    display: inline-block;
+}
+
+nav ul li:hover {
+    text-decoration: underline;
+}
+
+
+nav a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgb(129, 31, 194);
+    color: whitesmoke;
+    font-size: 1rem;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+footer p {
+    padding: 0.3rem;
+}
+
+/* Landing Page */
+.landing-page {
+    height: 600px;
+    width: 100%;
+    margin:auto 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-page h1 {
+    font-size: 3rem;
+    margin-bottom: 1.2rem;
+}
+
+.landing-page h3 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.landing-page a {
+    text-decoration: none;
+}
+
+.landing-page a button {
+    border: none;
+    font-size: 1rem;
+    padding: 1rem;
+    color: whitesmoke;
+    background-color: rgb(129, 31, 194);
+    border-radius: 10px;
+}
+
+.landing-page a button:hover {
+    cursor: pointer;
+    color: rgba(245, 245, 245, 0.938);
+    background-color: rgba(129, 31, 194, 0.904);
+}
