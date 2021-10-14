@@ -133,3 +133,117 @@ footer p {
     padding: 1rem 0;
 }
 
+/* Sign In page */
+.sign-in-form,
+.sign-up-form {
+    font-size: 1rem;
+    width: 300px;
+    background-color: rgba(129, 31, 194, 0.904);
+    color: whitesmoke;
+    border-radius: 1rem;
+    padding: 2rem;
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+    transform: translate(-50%, -50%);
+}
+
+.login-form>p {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.group {
+    margin: 1rem 0;
+}
+
+.login-form .button {
+    display: inline-block;
+    font-size: 1.1rem;
+    width: 5rem;
+}
+
+.login-form input {
+    height: 1.5rem;
+    border-radius: 1rem;
+    border: none;
+    margin-top: 0.4rem;
+    width: 100%;
+    padding: 0.3rem 1rem;
+}
+
+.login-form input:focus {
+    border: none;
+    font-size: 1rem;
+}
+
+.sign-in-htm a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.foot-lnk {
+    font-size: 0.8rem;
+    margin-bottom: 1.5rem;
+}
+
+.sign-in-htm .group button,
+.sign-up-form .group button {
+    border: whitesmoke 3px solid;
+    background-color: rgba(129, 31, 194, 0.979);
+    color: whitesmoke;
+    border-radius: 0.4rem;
+    padding: 0.4rem;
+    font-weight: 700;
+}
+
+.sign-in-htm .group button:hover {
+    opacity: 0.93;
+    cursor: pointer;
+}
+
+.foot-lnk:hover {
+    text-decoration: underline;
+}
+
+.sign-in-htm p {
+    text-align: center;
+}
+
+.sign-in-htm p>a:hover {
+    text-decoration: underline;
+}
+
+/* Sign Up page */
+.sign-up-form {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    width: 400px;
+}
+
+.sign-up-form p:first-child {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.sign-up-form input {
+    height: 1.5rem;
+    border-radius: 1rem;
+    border: none;
+    margin-top: 0.25rem;
+    width: 100%;
+    padding: 0.3rem 1rem;
+}
+
+.sign-up-form .button {
+    font-size: 1.1rem;
+    width: 100%;
+}
+
+.sign-up-form .button:hover {
+    opacity: 0.93;
+    cursor: pointer;
+}
