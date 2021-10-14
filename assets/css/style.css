@@ -12,13 +12,6 @@ body {
     font-family: sans-serif;
 }
 
-p {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 .darkside {
     color: rgba(245, 245, 245, 0.281);
     font-size: 2rem;
@@ -27,7 +20,7 @@ p {
 
 .container {
     width: 90%;
-    margin: auto 0;
+    margin: 0 auto;
 }
 
 nav {
@@ -73,6 +66,9 @@ footer {
     width: 100%;
     position: absolute;
     bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 footer p {
@@ -83,7 +79,7 @@ footer p {
 .landing-page {
     height: 600px;
     width: 100%;
-    margin:auto 0;
+    margin: auto 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -118,3 +114,22 @@ footer p {
     color: rgba(245, 245, 245, 0.938);
     background-color: rgba(129, 31, 194, 0.904);
 }
+
+/* About Section */
+.about-section {
+    padding: 1rem;
+    max-width: 900px;
+    margin: 3rem auto;
+}
+
+.about-section h3 {
+    font-size: 1.7rem;
+    margin: 3rem 0 0 0;
+}
+
+.about-section p {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    padding: 1rem 0;
+}
+
