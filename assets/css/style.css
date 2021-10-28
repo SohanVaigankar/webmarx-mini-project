@@ -6,16 +6,9 @@
 
 body {
     background-color: whitesmoke;
-    /* background-color: rgb(141, 36, 211); */
     color: #2f2f2f;
     font-size: 62.5%;
     font-family: sans-serif;
-}
-
-.darkside {
-    color: rgba(245, 245, 245, 0.281);
-    font-size: 2rem;
-
 }
 
 .container {
@@ -218,9 +211,10 @@ footer p {
 
 /* Sign Up page */
 .sign-up-form {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     margin-bottom: 1rem;
     width: 400px;
+    padding: -4rem;
 }
 
 .sign-up-form p:first-child {
@@ -246,4 +240,121 @@ footer p {
 .sign-up-form .button:hover {
     opacity: 0.93;
     cursor: pointer;
+}
+
+.sign-up-form .foot-lnk {
+    font-size: 0.8rem;
+    margin-bottom: -1.3rem;
+}
+
+.sign-up-form .foot-lnk label a {
+    margin-left: 0.2rem;
+    color: whitesmoke;
+}
+
+/* Home page */
+.searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.searchbar input {
+    width: 50%;
+    font-size: 1.1rem;
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    border: none;
+    text-align: center;
+    background-color: rgba(129, 31, 194, 0.979);
+    caret-color: whitesmoke;
+    color: whitesmoke;
+    height: 2.5rem;
+}
+
+.searchbar input::placeholder {
+    color: rgba(245, 245, 245, 0.589);
+}
+
+.bookmarks-gallery {
+    /* width: 80%; */
+}
+
+.gallery-controllers {
+    display: flex;
+    margin: 2rem 1rem;
+    justify-content: space-between;
+}
+
+.add-btn {
+    width: 4.5rem;
+    height: 3rem;
+    background-color: #811FC2;
+    color: whitesmoke;
+    font-weight: 600;
+    border: none;
+    border-radius: .4rem;
+    padding: 0.8rem;
+    font-size: 1.2rem;
+}
+
+.add-btn:hover {
+    opacity: 0.8;
+}
+
+.filters {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 10rem;
+}
+
+.filters button {
+
+    padding: 0.6rem;
+    background-color: red;
+    color: whitesmoke;
+    font: 1.4rem;
+    font-weight: 600;
+    background-color: #811FC2;
+    border-radius: .4rem;
+    border: none;
+}
+
+.gallery {
+    /* width: 100%; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.bookmark {
+    display: inline-block;
+    height: 10rem;
+    width: 20%;
+    font-size: 1rem;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: hsl(276, 72.4%, 44.1%);
+    border-radius: 1rem;
+    color: whitesmoke;
+}
+
+.bookmark:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+/* View bookmark */
+.isfavourite {
+    display: flex;
+}
+
+.isfavourite label{
+    margin-top: 0.5rem;
+}
+
+.isfavourite input{
+    margin-left: -5rem;
 }

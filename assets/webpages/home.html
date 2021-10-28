@@ -20,31 +20,47 @@
     </ul>
   </nav>
   <header class="searchbar">
-    <label for="searchbar">Search : </label>
-    <input name="searchbar" type="text">
+    <input id="searchbar" type="text" placeholder="Search Bookmark">
   </header>
-  <main class="bookmarks-gallery">
+  <main class="bookmarks-gallery container">
     <div class="gallery-controllers">
-      <button type="button">Add+</button>
+      <a href="../webpages/newbookmark.html"><button type="button" class="add-btn">Add+</button></a>
       <div class="filters">
         <!-- List view or grid view -->
         <button class="view">view</button>
         <button>main</button>
       </div>
     </div>
-    <ul class="gallery">
-      <li>
-        <div class="bookmark">Bookmark 1</div>
-        <div class="bookmark">Bookmark 2</div>
-        <div class="bookmark">Bookmark 3</div>
-        <div class="bookmark">Bookmark 4</div>
-        <div class="bookmark">Bookmark 5</div>
-        <div class="bookmark">Bookmark 6</div>
-      </li>
-    </ul>
-    </section>
-    <footer><p>Made with love by Sohan</p></footer>
-    <script src="script.js"></script>
+    <table class="gallery">
+      <tr class="bookmark">
+        <td>Bookmark 1</td>
+      </tr>
+      <tr class="bookmark">
+        <td>Bookmark 2</td>
+      </tr>
+      <tr class="bookmark">
+        <td>Bookmark 3</td>
+      </tr>
+      <tr class="bookmark">
+        <td>Bookmark 4</td>
+      </tr>
+      <tr class="bookmark">
+        <td>Bookmark 5</td>
+      </tr>
+      <tr class="bookmark">
+        <td>Bookmark 6</td>
+      </tr>
+      <tr class="bookmark">
+        <td>Bookmark 7</td>
+      </tr>
+      <tr class="bookmark">
+        <td>Bookmark 8</td>
+      </tr>
+    </table>
+  </main>
+  <footer>
+    <p>Made with love by Sohan</p>
+  </footer>
 </body>
 
 </html>

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebmarX | Sign Up</title>
+    <link href="../css/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <nav>
+        <div class="logo"><a href="#">WebmarX</a></div>
+        <ul>
+            <li class="nav-link"><a href="./assets/webpages/home.html">Home</a></li>
+            <li class="nav-link"><a href="./assets/webpages/about.html">About</a></li>
+            <li class="nav-link account-link"><a href="./assets/webpages/signin.html">Sign In</a></li>
+        </ul>
+    </nav>
+    <form class="sign-up-form">
+        <p>New Bookmark!</p>
+        <div class="group">
+            <label for="bookmark" class="label">Name</label>
+            <input id="bookmark" type="text" class="input">
+        </div>
+        <div class="group">
+            <label for="url" class="label">URL</label>
+            <input id="url" type="url" class="input">
+        </div>
+        <div class="group">
+            <label for="description" class="label">Description</label>
+            <input id="description" type="text" class="input">
+        </div>
+        <div class="group">
+            <label for="pass" class="label">Category</label>
+            <select name="category" id="category">
+                <option selected disabled>Select</option>
+                <option value="Finance">Finance</option>
+                <option value="education">Education</option>
+                <option value="games">Games</option>
+            </select>
+        </div>
+
+        <div class="group">
+            <label class="label">Favourite:</label>
+            <div class="isfavourite">
+                <label for="fav">Yes</label>
+                <input name="fav" type="radio">
+                <label for="fav">No</label>
+                <input name="fav" type="radio">
+            </div>
+        </div>
+        <div class="group">
+            <label for="icon" class="label">Icon</label>
+            <input id="icon" type="file" class="input">
+        </div>
+        <div class="group">
+            <button type="submit" class="button" value="Sign Up">Add</button>
+        </div>
+    </form>
+    <footer>
+        <p>Made with love by Sohan</p>
+    </footer>
+</body>
+
+</html>
